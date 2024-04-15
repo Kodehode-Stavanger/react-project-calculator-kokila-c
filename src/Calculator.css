@@ -1,0 +1,70 @@
+/* Calculator.css */
+.calculator {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.big-btn {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+/* Calculator.css */
+
+.calculator {
+  max-width: 350px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: hsl(223, 31%, 20%);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.input-box {
+  margin-bottom: 20px;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  font-size: 1.2rem;
+  background-color: hsl(224, 36%, 15%);
+  color: hsl(0, 0%, 100%);
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+
+.buttons button {
+  width: 100%;
+  height: 50px;
+  font-size: 1.2rem;
+  background-color: #eae3db;
+  border: 1px solid #ccc;
+  color: hsl(224, 28%, 35%);
+  border-radius: 10px;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.buttons button:hover {
+  background-color: #f0f0f0;
+}
+
+.big-btn {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.big-btn button {
+  width: calc(50% - 5px);
+}
